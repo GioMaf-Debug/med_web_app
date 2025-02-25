@@ -1,1 +1,24 @@
+# Core FastAPI dependencies
+fastapi
+uvicorn
 
+# Optional dependencies
+pydantic  # Data validation
+python-dotenv  # Environment variables
+httpx  # Async HTTP requests (optional)
+bcrypt  # Password hashing (optional)
+passlib[bcrypt]  # Secure password hashing
+python-multipart  # Required for handling form-data (uploads)
+
+# Databases (choose one based on your project)
+sqlite3  # Built-in SQLite (optional)
+asyncpg  # PostgreSQL (async support, optional)
+pymysql  # MySQL/MariaDB (optional)
+motor  # MongoDB async driver (optional)
+
+# JWT Authentication
+pyjwt  # JSON Web Tokens (optional)
+
+# Background tasks / Celery
+celery  # Async task queue (optional)
+redis  # Caching and task queue support (optional)
